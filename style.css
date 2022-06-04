@@ -2,7 +2,7 @@ body{
     display: grid;
      grid-template-rows:  60px 50px 200px 1fr;
      background-color: rgb(192, 199, 197);
-     background-image: url(/Files/wallpaper.jpg);
+     background-image: linear-gradient(grey, white);
      background-repeat: no-repeat;
      background-size: cover;
    
@@ -26,6 +26,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left:20px ;
     /* grid-column: 1/-1; */
 }
 .mother{
@@ -73,6 +74,15 @@ word-spacing: 10px;}
     padding: 10px;
     background-color: white;
 }
+.see{
+    color: blue;
+    word-spacing: normal;
+}
+/* .box1:hover{
+    color: brown;
+    transition: 1s;
+    transform: translate3d(12px -10px 10px );
+} */
 .box2{
     grid-row: span 2;
     padding: 10px;
@@ -130,3 +140,4 @@ section, footer{
     padding: 10px;
     border: 1px solid black;
 }
+
